@@ -1,0 +1,20 @@
+{
+  "name": "aleksandrs_jancevskis_nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "chromedriver": "136.0.0",
+    "nightwatch": "3.12.1"
+  },
+  "dependencies": {
+    "geckodriver": "^5.0.0"
+  }
+}
