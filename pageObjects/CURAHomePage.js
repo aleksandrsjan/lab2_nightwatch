@@ -46,23 +46,22 @@ const pageCommands = {
     checkAppointment: function(expectedFacility, expectedApply, expectedProgram, expectedDate, expectedComment) {
         this.waitForElementVisible('@appointamentConfirmation')
             .getText('@facilityValue', result => {
-                console.log(result.value);
                 this.assert.strictEqual(result.value, expectedFacility)
             })
+            
             .getText('@applyValue', result => {
-                console.log(result.value);
                 this.assert.strictEqual(result.value, expectedApply)
             })
+            
             .getText('@programValue', result => {
-                console.log(result.value);
                 this.assert.strictEqual(result.value, expectedProgram)
             })
+
             .getText('@dateValue', result => {
-                console.log(result.value);
                 this.assert.strictEqual(result.value, expectedDate)
             })
+
             .getText('@commentValue', result => {
-                console.log(result.value);
                 this.assert.strictEqual(result.value, expectedComment)
             })
             
