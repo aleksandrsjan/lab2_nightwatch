@@ -1,6 +1,6 @@
 module.exports = {
     "1. scenarijs":function (client) {
-        let homePage = client.page.homePage();
+        let homePage = client.page.CURAHomePage();
 
         const data = {
             demoLogin: 'John Doe',
