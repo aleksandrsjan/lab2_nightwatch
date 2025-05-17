@@ -51,9 +51,13 @@ Lai palaistu visus testus, terminālī jāraksta komanda:
 Testu palaišana konkrētā browserī
 Lai palaistu testus konkrētā browserī, papildus komandai pievieno:
 1. -- --env <browsera_nosaukums> (nosaukums, kurš aprakstīts nightwatch.conf.js failā)
-    Piem.: npm test -- -- --env chrome
+
+Piem.: npm test -- -- --env chrome
+
 2. --env <browsera_nosaukums> (nosaukums, kurš aprakstīts nightwatch.conf.js failā)
-    Piem.: npm test -- --env firefox
+
+Piem.: npm test -- --env firefox
+
 Manā gadījumā strādā tikai pirmais variants, nevis otrais, kas tika parādīts lekcijās.
 
 Testu paralēla palaišana
