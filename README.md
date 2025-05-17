@@ -34,7 +34,7 @@ Projekta izstrādē tiek izmantotas Node.js 22.13.1 versija un npm 11.1.0 versij
 
 ### Palaišana
 
-- Konkrēta testa palaišana  
+Konkrēta testa palaišana  
 Lai palaistu 1 konkrētu testu, terminālī jāraksta komanda: 
 1. npm test /tests/<faila_nosaukums>.js
     Piem.: npm test /tests/1_scenarijs.js
@@ -44,11 +44,11 @@ Lai palaistu 1 konkrētu testu, terminālī jāraksta komanda:
     Piem.: npm test -- -t /tests/1_scenarijs.js
 Manā datorā strādā visi varianti.
 
-- Visu testu palaišana  
+Visu testu palaišana  
 Lai palaistu visus testus, terminālī jāraksta komanda:
 1. npm test
 
-- Testu palaišana konkrētā browserī
+Testu palaišana konkrētā browserī
 Lai palaistu testus konkrētā browserī, papildus komandai pievieno:
 1. -- --env <browsera_nosaukums> (nosaukums, kurš aprakstīts nightwatch.conf.js failā)
     Piem.: npm test -- -- --env chrome
@@ -56,7 +56,7 @@ Lai palaistu testus konkrētā browserī, papildus komandai pievieno:
     Piem.: npm test -- --env firefox
 Manā gadījumā strādā tikai pirmais variants, nevis otrais, kas tika parādīts lekcijās.
 
-- Testu paralēla palaišana
+Testu paralēla palaišana
 Lai palaistu testus paralēli, papildus komandai pievieno:
 1. --workers=<skaitlis> (skaitlis norāda, cik testu tiks veikti paralēli)
     Piem.: npm test -- -- --env chrome --workers=2
