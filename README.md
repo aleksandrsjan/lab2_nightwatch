@@ -39,7 +39,7 @@ Lai palaistu 1 konkrētu testu, terminālī jāraksta komanda:
 1. npm test /tests/<faila_nosaukums>.js
 
     Piem.: npm test /tests/1_scenarijs.js
-    
+
 2. npm test -- /tests/<faila_nosaukums>.js
 
     Piem.: npm test -- /tests/1_scenarijs.js
@@ -68,6 +68,6 @@ Manā gadījumā strādā tikai pirmais variants, nevis otrais, kas tika parād�
 
 Testu paralēla palaišana
 Lai palaistu testus paralēli, papildus komandai pievieno:
-1. --workers=<skaitlis> (skaitlis norāda, cik testu tiks veikti paralēli)
+1. --workers= <skaitlis> (skaitlis norāda, cik testu tiks veikti paralēli)
 
     Piem.: npm test -- -- --env chrome --workers=2
